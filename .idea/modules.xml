@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Areas/Areas.iml" filepath="$PROJECT_DIR$/Areas/Areas.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Java_tasks.iml" filepath="$PROJECT_DIR$/.idea/Java_tasks.iml" />
+      <module fileurl="file://$PROJECT_DIR$/arrayMax/arrayMax.iml" filepath="$PROJECT_DIR$/arrayMax/arrayMax.iml" />
+      <module fileurl="file://$PROJECT_DIR$/arrayTranspose/arrayTranspose.iml" filepath="$PROJECT_DIR$/arrayTranspose/arrayTranspose.iml" />
+      <module fileurl="file://$PROJECT_DIR$/asciicode/asciicode.iml" filepath="$PROJECT_DIR$/asciicode/asciicode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/permandcomb/permandcomb.iml" filepath="$PROJECT_DIR$/permandcomb/permandcomb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/quickSort/quickSort.iml" filepath="$PROJECT_DIR$/quickSort/quickSort.iml" />
+      <module fileurl="file://$PROJECT_DIR$/removeComma/removeComma.iml" filepath="$PROJECT_DIR$/removeComma/removeComma.iml" />
+    </modules>
+  </component>
+</project>
