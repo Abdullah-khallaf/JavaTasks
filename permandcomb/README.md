@@ -16,6 +16,6 @@ Combination function is : ![Combination Function](https://cdn.corporatefinancein
   3. In the main main function we will create a NcrAndNpr class.
   4. Taking two values from the user n and r.
   5. Apply the NcrAndNpr Methods.
-  6 Print the output.
+  6. Print the output.
   
 Thank you.
