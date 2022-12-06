@@ -1,33 +1,51 @@
-// task4 : transpose of 2d array
-public class Main {
-    public static void main(String[] args) {
+import java.util.Scanner;
 
+public class ArrayTranspose{
 
-        int[][] matrix = { {3, -2, 5}, {3, 0, 4} };
+    public static void main(String args[]){
+        Scanner sc=new Scanner(System.in);
+        // Take the Array from the user
+        System.out.println("Enter 2D array rows : ");
+        int rows=sc.nextInt();
+        System.out.println("Enter 2D array columns : ");
+        int columns=sc.nextInt();
 
-        int[][] transpose = new int[3][2];  //3 rows and 3 columns
-
-        // transpose
-        for(int i = 0 ; i < 3 ; i++){
-            for(int j = 0 ; j < 2 ; j++){
-                transpose[i][j] = matrix[j][i];
+        System.out.println("Enter array elements : ");
+        int twoD[][]=new int[rows][columns];
+        for(int i=0; i<rows;i++)
+        {
+            for(int j=0; j<columns;j++)
+            {
+                twoD[i][j]=sc.nextInt();
             }
         }
 
-        System.out.println("The matrix before transposing :");
-        displayArray(matrix);
-        System.out.println("The matrix after transposing :");
-        displayArray(transpose);
+        // working on the transpose
+        int[][] transpose = new int[columns][rows];
 
-    }
+        for(int i = 0 ; i < columns ; i++){
+            for(int j = 0 ; j < rows ; j++){
+                transpose[i][j] = twoD[j][i];
+            }
+        }
 
-
-    public static void displayArray(int [] [] arr){
-        for(int[] row : arr) {
-            for (int column : row) {
-                System.out.print(column + " ");
+        // printing the matrix
+        System.out.print("\nYour Matrix : \n");
+        for(int []x:twoD){
+            for(int y:x){
+                System.out.print(y+"        ");
             }
             System.out.println();
         }
+
+        System.out.print("\nMatrix Transpose : \n");
+        for(int []x:transpose){
+            for(int y:x){
+                System.out.print(y+"        ");
+            }
+            System.out.println();
+        }
+
     }
+
 }
