@@ -3,9 +3,9 @@
 ## About the project:
   Array transpose is an application that swaps the rows and columns of an Array, Example:
 
-    | #1  | #2  |
-    | --- | --- |
-    | 301 | 283 |
+   | #1  | #2  |
+   | --- | --- |
+   | 301 | 283 |
         
 
   Attempt | #1 | #2 | #3 | #4 | #5 | #6 | #7 | #8 | #9 | #10 | #11
